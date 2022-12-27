@@ -19,7 +19,7 @@ extension CryptoService {
   
     static func currencies() -> AnyPublisher<CoinMarket<CoinMarketData>, Error> {
       var request = URLRequest(url: base.appendingPathComponent("v1/cryptocurrency/listings/latest"))
-      request.setValue(apiKey, forHTTPHeaderField: "X-CMC_PRO_API_KEY")
+      request.setValue(apiKey, forHTTPHeaderField: Environment.apiKey)
       return agent.run(request)
     }
 }

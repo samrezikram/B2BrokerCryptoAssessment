@@ -9,9 +9,8 @@
 import Foundation
 
 enum HTTPError: LocalizedError {
-  
   case statusCode
-  case post
+  case message
 }
 
 // MARK: - DTOs
@@ -50,7 +49,7 @@ struct Quote: Codable {
 
 
 
-// MARK: - Welcome
+// MARK: - CoinMarket
 struct CoinMarket<T: Codable>: Codable {
     let status: CoinMarketStatus
     let data: [T]
