@@ -6,7 +6,7 @@
 //
 import Foundation
 
-public enum Environment {
+public enum EnvironmentVar {
 	// MARK: - Keys
 	enum Keys {
 		enum Plist {
@@ -24,7 +24,7 @@ public enum Environment {
 
 	// MARK: - Plist values
   static let apiKey: String = {
-    guard let config = Environment.infoDictionary[Keys.Plist.apiKey] as? String else {
+    guard let config = EnvironmentVar.infoDictionary[Keys.Plist.apiKey] as? String else {
       fatalError("Coin Market API KEY not set in plist for this environment")
     }
     return config
