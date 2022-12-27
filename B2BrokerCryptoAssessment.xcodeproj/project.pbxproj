@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB1552CA295B91C90084BC21 /* UnitTestingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1552C9295B91C90084BC21 /* UnitTestingViewModel.swift */; };
 		AB91A3CB295A3C2C006A4588 /* B2BrokerCryptoAssessmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB91A3CA295A3C2C006A4588 /* B2BrokerCryptoAssessmentApp.swift */; };
 		AB91A3CD295A3C2C006A4588 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB91A3CC295A3C2C006A4588 /* ContentView.swift */; };
 		AB91A3CF295A3C2D006A4588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB91A3CE295A3C2D006A4588 /* Assets.xcassets */; };
@@ -14,6 +15,9 @@
 		AB91A3DC295A3C2E006A4588 /* B2BrokerCryptoAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB91A3DB295A3C2E006A4588 /* B2BrokerCryptoAssessmentTests.swift */; };
 		AB91A3E6295A3C2E006A4588 /* B2BrokerCryptoAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB91A3E5295A3C2E006A4588 /* B2BrokerCryptoAssessmentUITests.swift */; };
 		AB91A3E8295A3C2E006A4588 /* B2BrokerCryptoAssessmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB91A3E7295A3C2E006A4588 /* B2BrokerCryptoAssessmentUITestsLaunchTests.swift */; };
+		AB91A3F7295A3D49006A4588 /* CryptoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB91A3F5295A3D49006A4588 /* CryptoService.swift */; };
+		AB91A3F8295A3D49006A4588 /* CryptoHttpAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB91A3F6295A3D49006A4588 /* CryptoHttpAgent.swift */; };
+		AB91A3FB295A3D85006A4588 /* CryptoModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB91A3FA295A3D85006A4588 /* CryptoModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB1552C9295B91C90084BC21 /* UnitTestingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingViewModel.swift; sourceTree = "<group>"; };
 		AB91A3C7295A3C2C006A4588 /* B2BrokerCryptoAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = B2BrokerCryptoAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB91A3CA295A3C2C006A4588 /* B2BrokerCryptoAssessmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B2BrokerCryptoAssessmentApp.swift; sourceTree = "<group>"; };
 		AB91A3CC295A3C2C006A4588 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +49,9 @@
 		AB91A3E1295A3C2E006A4588 /* B2BrokerCryptoAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = B2BrokerCryptoAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB91A3E5295A3C2E006A4588 /* B2BrokerCryptoAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B2BrokerCryptoAssessmentUITests.swift; sourceTree = "<group>"; };
 		AB91A3E7295A3C2E006A4588 /* B2BrokerCryptoAssessmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B2BrokerCryptoAssessmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB91A3F5295A3D49006A4588 /* CryptoService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoService.swift; sourceTree = "<group>"; };
+		AB91A3F6295A3D49006A4588 /* CryptoHttpAgent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoHttpAgent.swift; sourceTree = "<group>"; };
+		AB91A3FA295A3D85006A4588 /* CryptoModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,8 @@
 		AB91A3C9295A3C2C006A4588 /* B2BrokerCryptoAssessment */ = {
 			isa = PBXGroup;
 			children = (
+				AB91A3F4295A3D49006A4588 /* NetworkService */,
+				AB91A3F9295A3D85006A4588 /* Model */,
 				AB91A3CA295A3C2C006A4588 /* B2BrokerCryptoAssessmentApp.swift */,
 				AB91A3CC295A3C2C006A4588 /* ContentView.swift */,
 				AB91A3CE295A3C2D006A4588 /* Assets.xcassets */,
@@ -114,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				AB91A3DB295A3C2E006A4588 /* B2BrokerCryptoAssessmentTests.swift */,
+				AB1552C9295B91C90084BC21 /* UnitTestingViewModel.swift */,
 			);
 			path = B2BrokerCryptoAssessmentTests;
 			sourceTree = "<group>";
@@ -125,6 +136,23 @@
 				AB91A3E7295A3C2E006A4588 /* B2BrokerCryptoAssessmentUITestsLaunchTests.swift */,
 			);
 			path = B2BrokerCryptoAssessmentUITests;
+			sourceTree = "<group>";
+		};
+		AB91A3F4295A3D49006A4588 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				AB91A3F5295A3D49006A4588 /* CryptoService.swift */,
+				AB91A3F6295A3D49006A4588 /* CryptoHttpAgent.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		AB91A3F9295A3D85006A4588 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB91A3FA295A3D85006A4588 /* CryptoModels.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB91A3F8295A3D49006A4588 /* CryptoHttpAgent.swift in Sources */,
 				AB91A3CD295A3C2C006A4588 /* ContentView.swift in Sources */,
+				AB91A3F7295A3D49006A4588 /* CryptoService.swift in Sources */,
+				AB91A3FB295A3D85006A4588 /* CryptoModels.swift in Sources */,
 				AB91A3CB295A3C2C006A4588 /* B2BrokerCryptoAssessmentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB91A3DC295A3C2E006A4588 /* B2BrokerCryptoAssessmentTests.swift in Sources */,
+				AB1552CA295B91C90084BC21 /* UnitTestingViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
