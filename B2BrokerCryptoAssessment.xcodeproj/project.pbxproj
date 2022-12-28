@@ -16,6 +16,7 @@
 		AB1552E6295BD87F0084BC21 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1552DC295BD87F0084BC21 /* Spinner.swift */; };
 		AB1552EA295BD87F0084BC21 /* System.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1552E2295BD87F0084BC21 /* System.swift */; };
 		AB1552EB295BD87F0084BC21 /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1552E3295BD87F0084BC21 /* Feedback.swift */; };
+		AB1552ED295BE4DA0084BC21 /* UnitTestingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1552EC295BE4DA0084BC21 /* UnitTestingViewModel.swift */; };
 		AB91A3CB295A3C2C006A4588 /* B2BrokerCryptoAssessmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB91A3CA295A3C2C006A4588 /* B2BrokerCryptoAssessmentApp.swift */; };
 		AB91A3CD295A3C2C006A4588 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB91A3CC295A3C2C006A4588 /* ContentView.swift */; };
 		AB91A3CF295A3C2D006A4588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB91A3CE295A3C2D006A4588 /* Assets.xcassets */; };
@@ -56,6 +57,7 @@
 		AB1552DC295BD87F0084BC21 /* Spinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
 		AB1552E2295BD87F0084BC21 /* System.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = System.swift; sourceTree = "<group>"; };
 		AB1552E3295BD87F0084BC21 /* Feedback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
+		AB1552EC295BE4DA0084BC21 /* UnitTestingViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitTestingViewModel.swift; sourceTree = "<group>"; };
 		AB91A3C7295A3C2C006A4588 /* B2BrokerCryptoAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = B2BrokerCryptoAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB91A3CA295A3C2C006A4588 /* B2BrokerCryptoAssessmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B2BrokerCryptoAssessmentApp.swift; sourceTree = "<group>"; };
 		AB91A3CC295A3C2C006A4588 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				AB91A3E5295A3C2E006A4588 /* B2BrokerCryptoAssessmentUITests.swift */,
+				AB1552EC295BE4DA0084BC21 /* UnitTestingViewModel.swift */,
 				AB91A3E7295A3C2E006A4588 /* B2BrokerCryptoAssessmentUITestsLaunchTests.swift */,
 			);
 			path = B2BrokerCryptoAssessmentUITests;
@@ -380,6 +383,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB1552ED295BE4DA0084BC21 /* UnitTestingViewModel.swift in Sources */,
 				AB91A3E8295A3C2E006A4588 /* B2BrokerCryptoAssessmentUITestsLaunchTests.swift in Sources */,
 				AB91A3E6295A3C2E006A4588 /* B2BrokerCryptoAssessmentUITests.swift in Sources */,
 			);

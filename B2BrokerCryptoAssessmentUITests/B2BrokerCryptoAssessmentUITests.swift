@@ -22,6 +22,26 @@ final class B2BrokerCryptoAssessmentUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
+  func test_performRequest_URLSessionDataTaskThrowsError_throwsAPIError() {
+    
+    @ObservedObject var viewModel: CoinListViewModel
+
+    viewModel = CoinListViewModel()
+    
+
+    switch viewModel.state {
+    case .idle:
+      print("")
+    case .loading:
+      print("")
+    case .error(let error):
+      print("")
+    case .loaded(let movies):
+      print("")
+    case .refresh(let movies):
+      print("")
+    }
+    
     func testExample() throws {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
