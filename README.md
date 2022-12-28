@@ -26,7 +26,7 @@ Install the dependencies
 - [x] MVVM
 - [x] Network Reachability.
 - [x] Combine
-- [x] Add Unit Test for mandatory fields.
+- [x] Add Unit Test 
 - [x] Adds Readme.
 
 
