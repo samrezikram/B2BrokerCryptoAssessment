@@ -1,5 +1,4 @@
 # B2BrokerCryptoAssessment
-# B2BrokerCryptoAssessment
 An application to show Crypto currencies rate against USD.
 ## **Version 1.0 - Wednesday 28 December, 2022**
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
