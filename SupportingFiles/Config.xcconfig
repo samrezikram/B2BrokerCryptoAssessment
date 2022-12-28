@@ -1,0 +1,10 @@
+//
+//  Config.xcconfig
+//  B2BrokerCryptoAssessment
+//
+//  Created by Samrez Ikram on 27/12/2022.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+XCC_API_KEY = 25485627-a053-43f3-9a44-47cc82bb7375
